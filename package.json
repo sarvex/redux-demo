@@ -16,7 +16,7 @@
   "babel-loader": "^8.0.5",
   "babel-preset-react-hmre": "^1.1.1",
   "webpack": "^5.0.0",
-  "webpack-dev-middleware": "^3.6.2",
+  "webpack-dev-middleware": "^6.0.0",
   "webpack-hot-middleware": "^2.24.4"
  },
  "scripts": {
