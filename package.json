@@ -13,7 +13,7 @@
   "@babel/core": "^7.4.4",
   "@babel/preset-env": "^7.4.4",
   "@babel/preset-react": "^7.0.0",
-  "babel-loader": "^8.0.5",
+  "babel-loader": "^9.0.0",
   "babel-preset-react-hmre": "^1.1.1",
   "webpack": "^5.0.0",
   "webpack-dev-middleware": "^6.0.0",
