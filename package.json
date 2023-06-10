@@ -3,21 +3,21 @@
  "version": "0.1.0",
  "private": true,
  "dependencies": {
-  "@babel/polyfill": "^7.4.4",
+  "@babel/polyfill": "7.12.1",
   "react": "18.2.0",
   "react-dom": "18.2.0",
   "react-scripts": "5.0.1"
  },
  "devDependencies": {
-  "@babel/cli": "^7.4.4",
-  "@babel/core": "^7.4.4",
-  "@babel/preset-env": "^7.4.4",
-  "@babel/preset-react": "^7.0.0",
-  "babel-loader": "^9.0.0",
-  "babel-preset-react-hmre": "^1.1.1",
-  "webpack": "^5.0.0",
-  "webpack-dev-middleware": "^6.0.0",
-  "webpack-hot-middleware": "^2.24.4"
+  "@babel/cli": "7.22.5",
+  "@babel/core": "7.22.5",
+  "@babel/preset-env": "7.22.5",
+  "@babel/preset-react": "7.22.5",
+  "babel-loader": "9.1.2",
+  "babel-preset-react-hmre": "1.1.1",
+  "webpack": "5.86.0",
+  "webpack-dev-middleware": "6.1.1",
+  "webpack-hot-middleware": "2.25.3"
  },
  "scripts": {
   "start": "react-scripts start",

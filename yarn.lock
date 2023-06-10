@@ -24,7 +24,7 @@
     jsonpointer "^5.0.0"
     leven "^3.1.0"
 
-"@babel/cli@^7.4.4":
+"@babel/cli@7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.22.5.tgz#eb323bd69f50297792c2b7c205a97306a305d703"
   integrity sha512-N5d7MjzwsQ2wppwjhrsicVDhJSqF9labEP/swYiHhio4Ca2XjEehpgPmerjnLQl7BPE59BLud0PTWGYwqFl/cQ==
@@ -71,7 +71,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.22.3.tgz#cd502a6a0b6e37d7ad72ce7e71a7160a3ae36f7e"
   integrity sha512-aNtko9OPOwVESUFp3MZfD8Uzxl7JzSeJpd7npIoxCasU37PFbAQRpKglkaKwlHOyeJdrREpo8TW8ldrkYWwvIQ==
 
-"@babel/core@^7.1.0", "@babel/core@^7.4.4":
+"@babel/core@7.22.5", "@babel/core@^7.1.0":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.22.5.tgz#d67d9747ecf26ee7ecd3ebae1ee22225fe902a89"
   integrity sha512-SBuTAjg91A3eKOvD+bPEz3LlhHZRNu1nFOVts9lzDJTXshHTjII0BAtDS3Y2DAkdZdDKWVZGVwkDfc4Clxn1dg==
@@ -1296,7 +1296,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.22.5"
     "@babel/helper-plugin-utils" "^7.22.5"
 
-"@babel/polyfill@^7.4.4":
+"@babel/polyfill@7.12.1":
   version "7.12.1"
   resolved "https://registry.yarnpkg.com/@babel/polyfill/-/polyfill-7.12.1.tgz#1f2d6371d1261bbd961f3c5d5909150e12d0bd96"
   integrity sha512-X0pi0V6gxLi6lFZpGmeNa4zxtwEmCs42isWLNjZZDE0Y8yVfgu0T2OAHlzBbdYlqbW/YXVvoBHpATEM+goCj8g==
@@ -1304,7 +1304,7 @@
     core-js "^2.6.5"
     regenerator-runtime "^0.13.4"
 
-"@babel/preset-env@^7.11.0", "@babel/preset-env@^7.12.1", "@babel/preset-env@^7.16.4", "@babel/preset-env@^7.4.4":
+"@babel/preset-env@7.22.5", "@babel/preset-env@^7.11.0", "@babel/preset-env@^7.12.1", "@babel/preset-env@^7.16.4":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.22.5.tgz#3da66078b181f3d62512c51cf7014392c511504e"
   integrity sha512-fj06hw89dpiZzGZtxn+QybifF07nNiZjZ7sazs2aVDcysAZVGjW7+7iFYxg6GLNM47R/thYfLdrXc+2f11Vi9A==
@@ -1401,7 +1401,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/preset-react@^7.0.0", "@babel/preset-react@^7.12.5", "@babel/preset-react@^7.16.0":
+"@babel/preset-react@7.22.5", "@babel/preset-react@^7.12.5", "@babel/preset-react@^7.16.0":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/preset-react/-/preset-react-7.22.5.tgz#c4d6058fbf80bccad02dd8c313a9aaa67e3c3dd6"
   integrity sha512-M+Is3WikOpEJHgR385HbuCITPTaPRaNkibTEa9oiofmJvIsrceb4yp9RL9Kb+TE8LznmeyZqpP+Lopwcx59xPQ==
@@ -3105,6 +3105,14 @@ babel-jest@^27.4.2, babel-jest@^27.5.1:
     graceful-fs "^4.2.9"
     slash "^3.0.0"
 
+babel-loader@9.1.2:
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-9.1.2.tgz#a16a080de52d08854ee14570469905a5fc00d39c"
+  integrity sha512-mN14niXW43tddohGl8HPu5yfQq70iUThvFL/4QzESA7GcZoC0eVOhvWdQ8+3UlSjaDE9MVtsW9mxDY07W7VpVA==
+  dependencies:
+    find-cache-dir "^3.3.2"
+    schema-utils "^4.0.0"
+
 babel-loader@^8.2.3:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.3.0.tgz#124936e841ba4fe8176786d6ff28add1f134d6a8"
@@ -3114,14 +3122,6 @@ babel-loader@^8.2.3:
     loader-utils "^2.0.0"
     make-dir "^3.1.0"
     schema-utils "^2.6.5"
-
-babel-loader@^9.0.0:
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-9.1.2.tgz#a16a080de52d08854ee14570469905a5fc00d39c"
-  integrity sha512-mN14niXW43tddohGl8HPu5yfQq70iUThvFL/4QzESA7GcZoC0eVOhvWdQ8+3UlSjaDE9MVtsW9mxDY07W7VpVA==
-  dependencies:
-    find-cache-dir "^3.3.2"
-    schema-utils "^4.0.0"
 
 babel-plugin-istanbul@^6.1.1:
   version "6.1.1"
@@ -3266,10 +3266,10 @@ babel-preset-react-app@^10.0.1:
     babel-plugin-macros "^3.1.0"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
 
-babel-preset-react-hmre@^1.1.1:
+babel-preset-react-hmre@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/babel-preset-react-hmre/-/babel-preset-react-hmre-1.1.1.tgz#d216e60cb5b8d4c873e19ed0f54eaff1437bc492"
-  integrity sha1-0hbmDLW41Mhz4Z7Q9U6v8UN7xJI=
+  integrity sha512-UYkUorcR+xvRXeQxykWxlgCnl4m2GmKDYyr9TiRoJ2+vXw1vusMsH+j9wp9a6aWAMOlaO+vFy/PYNlyRzJW9/w==
   dependencies:
     babel-plugin-react-transform "^2.0.2"
     react-transform-catch-errors "^1.0.2"
@@ -9546,6 +9546,17 @@ webidl-conversions@^6.1.0:
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-6.1.0.tgz#9111b4d7ea80acd40f5270d666621afa78b69514"
   integrity sha512-qBIvFLGiBpLjfwmYAaHPXsn+ho5xZnGvyGvsarywGNc8VyQJUMHJ8OBKGGrPER0okBeMDaan4mNBlgBROxuI8w==
 
+webpack-dev-middleware@6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-6.1.1.tgz#6bbc257ec83ae15522de7a62f995630efde7cc3d"
+  integrity sha512-y51HrHaFeeWir0YO4f0g+9GwZawuigzcAdRNon6jErXy/SqV/+O6eaVAzDqE6t3e3NpGeR5CS+cCDaTC+V3yEQ==
+  dependencies:
+    colorette "^2.0.10"
+    memfs "^3.4.12"
+    mime-types "^2.1.31"
+    range-parser "^1.2.1"
+    schema-utils "^4.0.0"
+
 webpack-dev-middleware@^5.3.1:
   version "5.3.3"
   resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-5.3.3.tgz#efae67c2793908e7311f1d9b06f2a08dcc97e51f"
@@ -9553,17 +9564,6 @@ webpack-dev-middleware@^5.3.1:
   dependencies:
     colorette "^2.0.10"
     memfs "^3.4.3"
-    mime-types "^2.1.31"
-    range-parser "^1.2.1"
-    schema-utils "^4.0.0"
-
-webpack-dev-middleware@^6.0.0:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-6.1.1.tgz#6bbc257ec83ae15522de7a62f995630efde7cc3d"
-  integrity sha512-y51HrHaFeeWir0YO4f0g+9GwZawuigzcAdRNon6jErXy/SqV/+O6eaVAzDqE6t3e3NpGeR5CS+cCDaTC+V3yEQ==
-  dependencies:
-    colorette "^2.0.10"
-    memfs "^3.4.12"
     mime-types "^2.1.31"
     range-parser "^1.2.1"
     schema-utils "^4.0.0"
@@ -9604,7 +9604,7 @@ webpack-dev-server@^4.6.0:
     webpack-dev-middleware "^5.3.1"
     ws "^8.13.0"
 
-webpack-hot-middleware@^2.24.4:
+webpack-hot-middleware@2.25.3:
   version "2.25.3"
   resolved "https://registry.yarnpkg.com/webpack-hot-middleware/-/webpack-hot-middleware-2.25.3.tgz#be343ce2848022cfd854dd82820cd730998c6794"
   integrity sha512-IK/0WAHs7MTu1tzLTjio73LjS3Ov+VvBKQmE8WPlJutgG5zT6Urgq/BbAdRrHTRpyzK0dvAvFh1Qg98akxgZpA==
@@ -9642,7 +9642,7 @@ webpack-sources@^3.2.3:
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.3.tgz#2d4daab8451fd4b240cc27055ff6a0c2ccea0cde"
   integrity sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
 
-webpack@^5.0.0, webpack@^5.64.4:
+webpack@5.86.0, webpack@^5.64.4:
   version "5.86.0"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.86.0.tgz#b0eb81794b62aee0b7e7eb8c5073495217d9fc6d"
   integrity sha512-3BOvworZ8SO/D4GVP+GoRC3fVeg5MO4vzmq8TJJEkdmopxyazGDxN8ClqN12uzrZW9Tv8EED8v5VSb6Sqyi0pg==
