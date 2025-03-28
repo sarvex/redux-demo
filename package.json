@@ -15,7 +15,7 @@
   "@babel/preset-react": "7.24.7",
   "babel-loader": "10.0.0",
   "babel-preset-react-hmre": "1.1.1",
-  "webpack": "5.91.0",
+  "webpack": "5.94.0",
   "webpack-dev-middleware": "7.2.1",
   "webpack-hot-middleware": "2.26.1"
  },
